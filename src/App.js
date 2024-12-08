@@ -1,8 +1,12 @@
 import "./App.css";
-import Home from "./pages/Home";
+import ComingSoon from "./pages/ComingSoon";
 
 function App() {
-  return <Home />;
+  return (
+    <>
+      <ComingSoon />
+    </>
+  );
 }
 
 export default App;
